@@ -1,0 +1,568 @@
+repo_name: kingsley-einstein/vfat-tools
+report_id: 4c02bb37a78feec531399ce46f227c6d
+repo_type: Public
+timestamp: '2023-11-09T19:59:46+00:00'
+requested_by: Dimosgr
+provider: github
+branch: master
+detected_tools_count: 41
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: package.json
+  last_updated_by: SHA-2084
+  last_updated_on: 2021-05-07 18:18:03.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.42.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package.json
+  detection_source: webpack.config.js
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: MINA
+  last_updated_on: 2021-06-23 10:42:27.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.8.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: CrispyMangoes
+  last_updated_on: 2021-05-24 04:52:47.000000000 Z
+- name: "@babel/plugin-syntax-dynamic-import"
+  description: Allow parsing of import
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-dynamic-import
+  version: 7.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: babel-polyfill
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/babel-polyfill
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: SHA-2084
+  last_updated_on: 2021-05-07 18:18:03.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.26.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: clear
+  description: Clear the terminal screen if possible
+  package_url: https://www.npmjs.com/clear
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17068/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: cli-color
+  description: Colors, formatting and other tools for the console
+  package_url: https://www.npmjs.com/cli-color
+  version: 2.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16493/default_e8b43b4cc93dd2989e630d56550f589fccdcda03.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: MINA
+  last_updated_on: 2021-06-23 10:42:27.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 4.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: ejs
+  description: Embedded JavaScript templates
+  package_url: https://www.npmjs.com/ejs
+  version: 2.7.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+  vulnerabilities:
+  - name: ejs template injection vulnerability
+    cve_id: CVE-2022-29078
+    cve_url: https://github.com/advisories/GHSA-phwq-j96m-2c2q
+    detected_date: Apr 28
+    severity: critical
+    first_patched: 3.1.7
+- name: ethers
+  description: Umbrella package for most common Ethers libraries
+  package_url: https://www.npmjs.com/ethers
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17297/default_3ec53c4dad64de27b72cc81401e898b5aea82f2c.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2021-06-09 08:29:28.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 6.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: html-minifier
+  description: Highly configurable
+  package_url: https://www.npmjs.com/html-minifier
+  version: 3.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16552/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: lodash.throttle
+  description: The lodash method `_.throttle` exported as a module
+  package_url: https://www.npmjs.com/lodash.throttle
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16643/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: vfat
+  last_updated_on: 2020-12-10 11:55:08.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: CrispyMangoes
+  last_updated_on: 2021-05-24 04:52:47.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: node-watch
+  description: A wrapper and enhancements for fs.watch
+  package_url: https://www.npmjs.com/node-watch
+  version: 0.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16713/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: CrispyMangoes
+  last_updated_on: 2021-05-24 04:52:47.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-12-13 23:35:56.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vasilis Fatouros
+  last_updated_on: 2020-09-22 21:01:56.000000000 Z
